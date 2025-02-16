@@ -1,6 +1,6 @@
 import './App.css'
 import * as React from "react";
-import { Input, Button, Flex, Breadcrumb, Space, Typography, Card } from 'antd';
+import { Input, Button, Flex, Breadcrumb, Space, Typography } from 'antd';
 const { Text, Title } = Typography;
 import { StarFilled, LinkedinFilled, GithubFilled } from '@ant-design/icons';
 
@@ -42,7 +42,7 @@ export const App: React.FC = () => {
                            <Space>
                                <Text type="secondary">Admin</Text>
                                <Text type="secondary">|</Text>
-                               <Text type="secondary">Comments</Text>
+                               <Text type="secondary">Comments: 3</Text>
                            </Space>
                        </Space>
                         <Space direction="vertical" style={{ display: 'flex', backgroundColor: 'white', padding: '10px', borderRadius: '10px'  }}>
